@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="HTML\style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <style> 
+    body {
+            /* background-image: url('https://removal.ai/wp-content/uploads/2021/05/image7.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; */
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, rgb(26, 51, 80), rgb(67, 162, 206));
+        }
+    
+    .topbox{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+}
+    #heading{
+       
+       font-weight: 900;
+       font-family:cursive;
+       font-size: 40px;
+    }
+    
+#challenge1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#challenge2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+}
+
+   
+.challenge{
+    height: 300px;
+    width:100%;
+    background-color: rgb(112, 202, 250,0.5);
+    border-radius: 20px;
+    margin-top: 30px;
+    
+}
+.challenge:hover{
+    background-color: rgb(135, 84, 181);
+}
+
+
+#challenge1{
+   text-align: center;
+   margin-top: 20px;
+   font-size: 50px;
+}
+#challenge2{
+    font-size: 20px;
+    
+}
+.consequences{
+    height: 320px;
+    width:100%;
+    background-color: rgb(112, 202, 250,0.5);
+    border-radius: 20px;
+    
+}
+.consequences:hover{
+    background-color: rgb(135, 84, 181);
+}
+
+#first{
+    text-align: center;
+    font-size: 50px;
+}
+#second{
+    font-size: 20px;
+}
+#astronaut{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.solution{
+    height: 315px;
+    width:100%;
+    background-color: rgb(112, 202, 250,0.5);
+    border-radius: 20px;
+}
+.solution:hover{
+    background-color: rgb(135, 84, 181);
+}
+
+#solution1{
+    text-align: center;
+    font-size: 50px;
+}
+#solution2{
+    font-size: 20px;
+}
+.working{
+    height: 300px;
+    width:100%;
+    background-color: rgb(112, 202, 250,0.5);
+    border-radius: 20px;
+}
+.working:hover{
+    background-color: rgb(135, 84, 181);
+}
+#working1{
+    text-align: center;
+    font-size: 50px;
+}
+#working2{
+    font-size: 20px;
+}
+.downbar{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-around;
+    flex-direction: row;
+    width:100%;
+    height: 180px;
+    background-color: rgba(26, 26, 58, 0.7);
+}
+.topbar{
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    flex-direction: row;
+    font-weight: 600;
+    width:100%;
+    color: white;
+    height: 120px;
+    background-color: rgba(26, 26, 58, 0.7);
+    margin-bottom: 60px;
+}
+#igem{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+#people{
+    display: flex;
+    flex-direction: column;
+}
+#human{
+    display: flex;
+    flex-direction: column;
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+}
+#dry{
+    display: flex;
+    flex-direction: column;
+}
+#wet{
+    display: flex;
+    flex-direction: column;
+}
+#judges{
+    display: flex;
+    flex-direction: column;
+}
+#challenge1 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .challenge-content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .challenge-image {
+            flex: 0 0 auto;
+            margin-right: 20px;
+        }
+
+        .challenge-image img {
+            width: 300px;
+            height: auto;
+            border-radius: 20px;
+        }
+        .challenge-image img:hover{
+            height: 230px;
+            width:350px;
+        }
+
+        .challenge-text {
+            flex: 1;
+        }
+
+        #challenge2 {
+            font-size: 20px;
+        }
+        #consequences-heading {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .consequences-content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .consequences-image {
+            flex: 0 0 auto;
+            margin-left: 20px;
+        }
+
+        .consequences-image img {
+            width: 300px;
+            height: auto;
+            border-radius: 20px;
+        }
+        .consequences-image img:hover{
+            height:230px;
+            width:350px;
+        }
+
+        .consequences-text {
+            flex: 1;
+            text-align: left;
+        }
+
+        #consequences-text-content {
+            font-size: 20px;
+        }
+        #solution-heading {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        
+
+        .solution-content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .solution-image {
+            flex: 0 0 auto;
+            margin-right: 20px;
+        }
+
+        .solution-image img {
+            width: 300px;
+            height: auto;
+            border-radius: 20px;
+           transition: transform 5s;
+           
+        }
+        .solution-image img:hover{
+            height:230px;
+            width:350px;
+        }
+
+       
+        .solution-text {
+            flex: 1;
+            text-align: left;
+        }
+
+        #solution-text-content {
+            font-size: 20px;
+        }
+       
+</style>
+</head>
+<body>
+    <div class="topbar">
+        <!-- <p> iGEM IIT Roorkee</p> -->
+        <p> People </p>
+        <p> Projects</p>
+        <p> Human Activities</p>
+        <p> Wet Lab</p>
+        <p> Dry Lab</p>
+        <p> Judges</p>
+    
+       </div>
+    <div class="topbox">
+    <div><a id="logo" href="https://2020.igem.org/Team:IIT_Roorkee" style="border-radius: 50%;height: 200px;"><img src="https://tse3.mm.bing.net/th?id=OIP.lgWaLVdBBj6nuEw9SgcIpAHaGH&pid=Api&P=0&h=180"></div> </a>
+    <div id="heading"> <h1 style="color: white;"> VitAC  Yeast</h1> </div>
+    
+</div>
+    </div>
+    
+<div class="challenge">
+    <div id="challenge1">
+        <p>Challenges Faced by ISRO and the Gaganyaan Mission</p>
+    </div>
+    <div class="challenge-content">
+        <div class="challenge-image">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.nie2NqmBAUze_TJhFparbQHaEo&pid=Api&P=0&h=180" alt="Challenges Image">
+        </div>
+        <div class="challenge-text">
+            <div id="challenge2">
+                <p>The Indian Space Research Organisation (ISRO) is at the forefront of space exploration, with ambitious projects like the Gaganyaan mission aiming to send astronauts into space. However, ensuring the nutritional needs of astronauts is a critical concern for ISRO. Traditional space-proof food solutions often fall short in providing adequate levels of essential vitamins, posing a challenge for sustained human space exploration.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="consequences">
+    <div id="consequences-heading">
+        <p>Consequences of Vitamin Deficiency in Space</p>
+    </div>
+    <div class="consequences-content">
+        <div class="consequences-text">
+            <div id="consequences-text-content">
+                <p>Astronauts embarking on long-duration space missions face numerous challenges, including the prolonged deficiency of essential vitamins such as vitamin A and vitamin C. Vitamin deficiencies can lead to weakened immune systems, impaired vision, and decreased energy levels, posing significant risks to the health and performance of astronauts during their missions.</p>
+            </div>
+        </div>
+        <div class="consequences-image">
+           
+         
+         <img src="https://cdn.mos.cms.futurecdn.net/uE7AcSAdstZNgB8NJ8xFie.jpg"> </img>
+        </div>
+    </div>
+</div>
+        
+   
+
+   </div>
+   
+   <div class="solution">
+    <div id="solution-heading">
+        <p>Introducing VitAC Yeast: A Space-Proof Solution</p>
+    </div>
+    <div class="solution-content">
+        <div class="solution-image">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.PwvrH-VJDHOKLCzYQH4Y-gHaE7&pid=Api&P=0&h=180" alt="Solution Image">
+        </div>
+        <div class="solution-text">
+            <div id="solution-text-content">
+                <p>In response to the pressing need for space-proof nutritional solutions, iGEM IIT Roorkee presents VitAC Yeast, a groundbreaking project revolutionizing space nutrition. VitAC Yeast introduces genetically engineered yeast cells capable of synthesizing vitamin A and vitamin C, addressing the deficiencies faced by astronauts during extended space missions.</p>
+            </div>
+        </div>
+    </div>
+</div>
+   <div class="working"> 
+    <div id="working1"> 
+        <p> How VitAC Yeast Works ???</p>
+    </div>
+    <div id="working2"> 
+        <p> The genetically modified yeast can be integrated into baked food items such as bread, creating space-friendly nutritional supplements rich in essential vitamins. This innovative solution ensures that astronauts have access to the vital nutrients they need to maintain optimal health and performance during their missions.</p>
+    
+    </div>
+
+   </div>
+   <br>
+   <div class="downbar">
+   <div id="igem"> <a href="https://2020.igem.org/Team:IIT_Roorkee"> iGEM IIT Roorkee</a>
+    <a> The Department of Biosciences and
+        Bioengineering,</a>
+      <p> Indian Institute of Technology Roorkee,</p>
+       <p>Roorkee, Uttarakhand</p>
+      <p> India - 247667</p>
+</div>
+   <div id="people"> <a href="#"><b> People</b> </a>
+    <a> Team </a>
+    <a> Attributions</a>
+    <br>
+    <br>
+    <br>
+   
+   <a href="https://www.instagram.com/igem_iitr/" style="font-size: 40px;"><i class="fa-brands fa-instagram"></i></a>
+   
+</div>
+  <div id="projects"> <a href="#"> <b>Projects </b></a>
+    <a> Description</a>
+    <a> Problem</a>
+    <a> Solution</a>
+    <br>
+    <br>
+    <a href="https://www.facebook.com/igemiitr/" style="font-size: 35px;" >  <i class="fa-brands fa-facebook"></i></i></a>
+</div>
+  <div id="human">  <a href="#"> <b>Human Activities</b></a>
+    <a> Overview</a>
+    <a> Education</a>
+    <br>
+    <br>
+    <br>
+   <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Figem_iitr" style="font-size: 35px;"><i class="fa-brands fa-x-twitter"></i></a>
+</div>
+   <div id="wet">  <a href="#"> <b>Wet Lab</b></a>
+    <a> Overview</a>
+    <a> Protocol</a>
+    <a> Results</a>
+</div>
+  <div id="dry">  <a href="#"><b> Dry Lab </b></a>
+    <a> Overview</a>
+    <a> Protocols</a>
+    <a> Docking</a>
+</div> 
+   <div id="judges">  <a href="#"><b> Judges </b></a>
+    <a> Judging</a>
+ </div> 
+
+   </div>
+   
+</body>
+</html>
+
